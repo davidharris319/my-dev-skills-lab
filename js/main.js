@@ -19,7 +19,7 @@ $('#addSkill').on('click', function(e) {
 
 
 // Remove Skills
-$('td').on('click', 'button', function() {
+$('table').on('click', 'button', function() {
     $(this).closest('tr').fadeOut(1000, function() {
         $(this).remove();
     });
